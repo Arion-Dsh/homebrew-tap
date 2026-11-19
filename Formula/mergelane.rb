@@ -1,25 +1,25 @@
 class Mergelane < Formula
   desc "MCP collaboration tools for Gitea, Plane, GitHub, GitLab, and Jira"
   homepage "https://github.com/Arion-Dsh/mergelane"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Arion-Dsh/mergelane/releases/download/v0.1.0/mergelane-aarch64-apple-darwin.tar.xz"
-      sha256 "343014a9f55c4932febef75f0592ebd55ff86a7002f5e178688bb293896f34bc"
+      url "https://github.com/Arion-Dsh/mergelane/releases/download/v0.1.1/mergelane-aarch64-apple-darwin.tar.xz"
+      sha256 "d754756afc4ece79ea4bbe13454261359e9cc1124541e279debc3f0e9d4be80b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Arion-Dsh/mergelane/releases/download/v0.1.0/mergelane-x86_64-apple-darwin.tar.xz"
-      sha256 "45eae47b67e9dd6e91279491ad83545fe7fb8c0a861bba3c712e2733b6d662eb"
+      url "https://github.com/Arion-Dsh/mergelane/releases/download/v0.1.1/mergelane-x86_64-apple-darwin.tar.xz"
+      sha256 "1fb3225e387deeadb186e1ba91f7411fed368ff3b8fd58a1e792ca93443a0c3a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Arion-Dsh/mergelane/releases/download/v0.1.0/mergelane-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "5101ebaf08beb599d406f11b647966e80e5b73a99505599d601e847170d5a0f5"
+      url "https://github.com/Arion-Dsh/mergelane/releases/download/v0.1.1/mergelane-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "b9305840bc6b73a4d1ab0950314c66b44387c1d599585d92afdd7a75e8875a73"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Arion-Dsh/mergelane/releases/download/v0.1.0/mergelane-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "111d7689e5f19b7f6f957dbc752344b6703a58ce09303c8c67794a265b42f6ec"
+      url "https://github.com/Arion-Dsh/mergelane/releases/download/v0.1.1/mergelane-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "3c278af2d58530272b63c4b090a0135ed4aa7393e7becfa43759d57f9eceaccc"
     end
   end
   license "MIT"
